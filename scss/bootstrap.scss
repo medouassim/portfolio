@@ -1,0 +1,41 @@
+// Font
+$font-family-sans-serif: "Poppins", sans-serif;
+
+// Colors
+$primary: #cc005f;
+$secondary: #990047;
+$light: #f4f4f4;
+$dark: #000;
+
+// Spacers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12
+) !default;
+
+// Buttons
+$btn-border-radius: 0px;
+$btn-border-radius-sm: 0px;
+$btn-border-radius-lg: 0px;
+
+$btn-p-x: 30px;
+$btn-p-y: 12px;
+
+$btn-padding-x: $btn-p-x;
+$btn-padding-y: $btn-p-y;
+$btn-padding-x-lg: $btn-p-x;
+$btn-padding-y-lg: $btn-p-y;
+$btn-padding-x-sm: $btn-p-x;
+$btn-padding-y-sm: $btn-p-y;
+
+// Container Paddings:
+$container-padding-x: 11rem;
+@import "../node_modules/bootstrap/scss/bootstrap";
